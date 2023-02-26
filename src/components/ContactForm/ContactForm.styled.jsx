@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { ContactForm } from './ContactForm';
 import { Form, Field } from 'formik';
 
 export const FormCon = styled(Form)`
@@ -14,11 +13,11 @@ export const Input = styled(Field)`
 padding-left:5px;
 height:30px;
 border-radius:6px;
-max-width:360px;`
+max-width:320px;`
 
 export const Btn = styled.button`
 width:110px;
-padding: 5px;
+padding: 4px;
 border-radius:4px;
 background-color: white;
 cursor: pointer;
